@@ -49,34 +49,10 @@ developerlar hayotini osonlashtiradigan xizmatlar yaratish.
 
 ---
 
-# 🏆 **GitHub Statistikalarim**
+# 💬 Kunlik Developer Iqtibosi
 
 <p align="center">
-  <!-- Profilga kirishlar soni -->
-  <img 
-    src="https://komarev.com/ghpvc/?username=anvar4&label=Profil%20ko'rishlar&color=0e75b6&style=flat" 
-    alt="profile views" 
-  />
-</p>
-
-<p align="center">
-  <!-- Followers -->
-  <img 
-    src="https://img.shields.io/github/followers/anvar4?label=Followers&style=for-the-badge" 
-    alt="GitHub followers" 
-  />
-
-  <!-- Stars -->
-  <img 
-    src="https://img.shields.io/github/stars/anvar4?affiliations=OWNER&style=for-the-badge" 
-    alt="GitHub stars" 
-  />
-
-  <!-- Public repos -->
-  <img 
-    src="https://img.shields.io/github/repos/anvar4?style=for-the-badge&label=Public%20Repos" 
-    alt="Public repos" 
-  />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
 </p>
 
 
