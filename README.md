@@ -8,7 +8,7 @@
 # 🌟 **Ko‘charov Anvar – Fullstack Developer & AI Learner**
 
 Men **Kompyuter ilmlari va dasturlash texnologiyalari** yo‘nalishida o‘qiydigan,  
-**AI, Web Development, Backend Engineering**ga qiziqadigan developer’man.
+**AI, Web Development, Backend Engineering**ga qiziqadigan dasturchi’man.
 
 Maqsadim — innovatsion dasturlar yaratish, AI bilan kuchaytirilgan loyihalar ishlab chiqish va  
 developerlar hayotini osonlashtiradigan xizmatlar yaratish.
@@ -55,13 +55,22 @@ developerlar hayotini osonlashtiradigan xizmatlar yaratish.
 
 <p align="center">
 
-<img width="49%" 
-     src="https://github-readme-stats-git-master-rstaa-rickstaa.vercel.app/api?username=anvar4&show_icons=true&theme=tokyonight&count_private=true" />
+  <!-- WORKING GitHub Stats -->
+  <img 
+    src="https://github-readme-stats-git-master-rstaa-rickstaa.vercel.app/api?username=anvar4&show_icons=true&theme=tokyonight&count_private=true"
+    height="180"
+    alt="GitHub Stats"
+  />
 
-<img width="49%" 
-     src="https://streak-stats.demolab.com?user=anvar4&theme=tokyonight" />
+  <!-- WORKING Streak Stats -->
+  <img
+    src="https://streak-stats.demolab.com?user=anvar4&theme=tokyonight"
+    height="180"
+    alt="GitHub Streak"
+  />
 
 </p>
+
 
 ---
 
