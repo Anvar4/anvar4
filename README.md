@@ -10,8 +10,8 @@
 Men **Kompyuter ilmlari va dasturlash texnologiyalari** yo‘nalishida o‘qiydigan,  
 **AI, Web Development, Backend Engineering**ga qiziqadigan dasturchi’man.
 
-Maqsadim — innovatsion dasturlar yaratish, AI bilan kuchaytirilgan loyihalar ishlab chiqish va  
-developerlar hayotini osonlashtiradigan xizmatlar yaratish.
+Maqsadim — innovatsion dasturlar yaratish, AI bilan ishlaydigan kuchaytirilgan loyihalar ishlab chiqish va  
+developerlar hayotini osonlashtiradigan xizmatlar yaratish. Senior Fullstack dasturchi bo'lish
 
 ---
 
