@@ -19,7 +19,12 @@ developerlar hayotini osonlashtiradigan xizmatlar yaratish.
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-563D7C?style=for-the-badge&logo=vite&logoColor=yellow)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js)
-![TailwindCSS](https://img.shields.io/badge/Tailwindcss-0F172A?style=for-the-badge&logo=tailwind-css)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-0F172A?style=for-the-badge&logo=tailwind-css)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
 
 ### ⚙️ **Backend**
 ![NodeJS](https://img.shields.io/badge/Nodejs-3C873A?style=for-the-badge&logo=node.js&logoColor=white)
@@ -30,6 +35,7 @@ developerlar hayotini osonlashtiradigan xizmatlar yaratish.
 ![GitHub](https://img.shields.io/badge/GitHub%20Pro-000000?style=for-the-badge&logo=github)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
 ![Visual Studio Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 ---
 
@@ -45,7 +51,7 @@ developerlar hayotini osonlashtiradigan xizmatlar yaratish.
 # 🏆 **GitHub Statistikalarim**
 
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=anvar4&show_icons=true&theme=tokyonight&count_private=true" />
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=anvarkucharov&show_icons=true&theme=tokyonight&count_private=true" />
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=anvar4&theme=tokyonight" />
 </p>
 
@@ -82,7 +88,7 @@ developerlar hayotini osonlashtiradigan xizmatlar yaratish.
 ---
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=USERNAME&theme=tokyonight&no-frame=true&row=1&column=6" />
+  <img src="https://github-profile-trophy.vercel.app/?username=anvar4&theme=tokyonight&no-frame=true&row=1&column=6" />
 </p>
 
 ---
