@@ -51,9 +51,6 @@ developerlar hayotini osonlashtiradigan xizmatlar yaratish.
 
 # 🏆 **GitHub Statistikalarim**
 
-
-# 🏆 **GitHub Statistikalarim**
-
 <p align="center">
   <!-- Profilga kirishlar soni -->
   <img 
