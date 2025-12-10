@@ -1,5 +1,7 @@
 <!-- PROFIL BANNER -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=900&lines=Salom%2C+Men+ANVARMAN!;Fullstack+Developer+%7C+AI+%26+Software+Engineer;GitHub+Student+Developer+Pack+Member;Welcome+to+my+GitHub+Profile!+%F0%9F%91%8B" alt="Typing SVG" />
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=900&lines=Salom%2C+Men+ANVARMAN!;Fullstack+Developer+%7C+AI+%26+Software+Engineer;GitHub+Student+Developer+Pack+Member;Welcome+to+my+GitHub+Profile!+%F0%9F%91%8B" alt="Typing SVG" />
+</p>
 
 ---
 
@@ -25,7 +27,6 @@ developerlar hayotini osonlashtiradigan xizmatlar yaratish.
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-
 ### ⚙️ **Backend**
 ![NodeJS](https://img.shields.io/badge/Nodejs-3C873A?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express)
@@ -50,9 +51,24 @@ developerlar hayotini osonlashtiradigan xizmatlar yaratish.
 
 # 🏆 **GitHub Statistikalarim**
 
+> ⚠️ Eslatma: Asl Vercel server ishlamaydi, shuning uchun **mirror serverlar** qo‘llanildi.
+
 <p align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=anvarkucharov&show_icons=true&theme=tokyonight&count_private=true" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=anvar4&theme=tokyonight" />
+
+<!-- TRUE-WORKING GITHUB STATS -->
+<img width="49%" 
+     src="https://github-readme-stats-git-master-rstaa-rickstaa.vercel.app/api?username=anvar4&show_icons=true&theme=tokyonight&count_private=true" />
+
+<!-- TRUE-WORKING STREAK -->
+<img width="49%" 
+     src="https://streak-stats.demolab.com?user=anvar4&theme=tokyonight" />
+
+</p>
+
+<!-- MOST USED LANGUAGES -->
+<p align="center">
+  <img width="49%" 
+       src="https://github-readme-stats-git-master-rstaa-rickstaa.vercel.app/api/top-langs/?username=anvar4&layout=compact&theme=tokyonight" />
 </p>
 
 ---
@@ -60,15 +76,16 @@ developerlar hayotini osonlashtiradigan xizmatlar yaratish.
 # 📂 **Tanlangan loyihalar**
 
 ### 🔥 **1. AI Chat Assistant**
-> AI yordamida matn tahlili, suhbat va kod yozish imkoniyati.
+AI yordamida matn tahlili, suhbat va kod yozish imkoniyati.
 
 ### 🔥 **2. Fullstack Dashboard App**
-> React + Node.js + MongoDB bilan real biznes uchun ma'lumotlar paneli.
+React + Node.js + MongoDB bilan real biznes uchun ma'lumotlar paneli.
 
 ### 🔥 **3. Authentication System**
-> JWT + Refresh Token + Role-Based Access Control.
+JWT + Refresh Token + Role-Based Access Control.
 
-**Ko‘proq loyihalar →** [👉 Mening repositorylarimga o‘ting](https://github.com/anvar4?tab=repositories)
+➡️ **Ko‘proq loyihalar:**  
+https://github.com/anvar4?tab=repositories
 
 ---
 
@@ -81,9 +98,9 @@ developerlar hayotini osonlashtiradigan xizmatlar yaratish.
 
 # 📬 **Aloqa**
 **Email:** anvarkucharov4@gmail.com  
-**GitHub:** https://github.com/anvar4
-**Telegram:** https://t.me/@AnvarKucharov
-**Telefon raqam:** +998976402004 +998333390015
+**GitHub:** https://github.com/anvar4  
+**Telegram:** https://t.me/AnvarKucharov  
+**Telefon:** +998 97 640 20 04 | +998 33 339 00 15  
 
 ---
 
@@ -94,7 +111,6 @@ developerlar hayotini osonlashtiradigan xizmatlar yaratish.
 ---
 
 <p align="center">
-  <b>⭐ Profilimga tashrif buyurganingiz uchun rahmat!</b>
-  <br>
+  <b>⭐ Profilimga tashrif buyurganingiz uchun rahmat!</b><br>
   <i>Agar profilingizga qaytsangiz — follow qoldiring 😉</i>
 </p>
