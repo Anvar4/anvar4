@@ -52,13 +52,36 @@ developerlar hayotini osonlashtiradigan xizmatlar yaratish.
 # 🏆 **GitHub Statistikalarim**
 
 
+# 🏆 **GitHub Statistikalarim**
+
 <p align="center">
-
-<img src="https://ghproxy.com/https://github-readme-stats.vercel.app/api?username=anvar4&show_icons=true&theme=tokyonight" height="180" />
-
-<img src="https://streak-stats.demolab.com?user=anvar4&theme=tokyonight" height="180" />
-
+  <!-- Profilga kirishlar soni -->
+  <img 
+    src="https://komarev.com/ghpvc/?username=anvar4&label=Profil%20ko'rishlar&color=0e75b6&style=flat" 
+    alt="profile views" 
+  />
 </p>
+
+<p align="center">
+  <!-- Followers -->
+  <img 
+    src="https://img.shields.io/github/followers/anvar4?label=Followers&style=for-the-badge" 
+    alt="GitHub followers" 
+  />
+
+  <!-- Stars -->
+  <img 
+    src="https://img.shields.io/github/stars/anvar4?affiliations=OWNER&style=for-the-badge" 
+    alt="GitHub stars" 
+  />
+
+  <!-- Public repos -->
+  <img 
+    src="https://img.shields.io/github/repos/anvar4?style=for-the-badge&label=Public%20Repos" 
+    alt="Public repos" 
+  />
+</p>
+
 
 ---
 
@@ -95,9 +118,18 @@ https://github.com/anvar4?tab=repositories
 
 ---
 
+# 🥇 GitHub Achievements
+
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=anvar4&theme=tokyonight&no-frame=true&row=1&column=6" />
+  <img src="https://github.com/anvar4.png?size=200" width="120" style="border-radius:50%;" />
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Achiever-%F0%9F%A5%87-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Open%20Source%20Contributor-%E2%9C%A8-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Developer-%F0%9F%92%BB-yellow?style=for-the-badge" />
+</p>
+
 
 ---
 
