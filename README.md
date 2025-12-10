@@ -51,26 +51,14 @@ developerlar hayotini osonlashtiradigan xizmatlar yaratish.
 
 # 🏆 **GitHub Statistikalarim**
 
-> ⚠️ Official `vercel.app` server ishlamaydi. Quyidagi linklar **100% ishlaydigan mirror** serverlardan.
 
 <p align="center">
 
-  <!-- WORKING GitHub Stats -->
-  <img 
-    src="https://github-readme-stats-git-master-rstaa-rickstaa.vercel.app/api?username=anvar4&show_icons=true&theme=tokyonight&count_private=true"
-    height="180"
-    alt="GitHub Stats"
-  />
+<img src="https://ghproxy.com/https://github-readme-stats.vercel.app/api?username=anvar4&show_icons=true&theme=tokyonight" height="180" />
 
-  <!-- WORKING Streak Stats -->
-  <img
-    src="https://streak-stats.demolab.com?user=anvar4&theme=tokyonight"
-    height="180"
-    alt="GitHub Streak"
-  />
+<img src="https://streak-stats.demolab.com?user=anvar4&theme=tokyonight" height="180" />
 
 </p>
-
 
 ---
 
@@ -91,6 +79,7 @@ https://github.com/anvar4?tab=repositories
 ---
 
 # 🎯 **Maqsadlarim**
+- Fullstack dasturlashda Senior darajasiga erishish
 - Professional AI Engineer bo‘lish  
 - Kuchli Web Services va SaaS loyihalar yaratish  
 - O‘zbek developerlar community’siga hissa qo‘shish  
