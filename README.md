@@ -75,17 +75,6 @@ developerlar hayotini osonlashtiradigan xizmatlar yaratish. Senior Fullstack das
 
 ---
 
----
-
-# 📰 **Latest AI & Tech News**
-<p align="left">
-  <a href="https://github.com/anvar4">
-    <img src="https://readmetips.vercel.app/api/news?count=3&category=ai,software&theme=tokyonight" alt="Daily Tech News" />
-  </a>
-</p>
-
----
-
 # 💬 Kunlik Developer Iqtibosi
 
 <p align="center">
