@@ -136,4 +136,3 @@ https://github.com/anvar4?tab=repositories
   <b>⭐ Profilimga tashrif buyurganingiz uchun rahmat!</b><br>
   <i>Agar profilingizga qaytsangiz — follow qoldiring 😉</i>
 </p>
-    bu mening githubimga biriktirilgan md faylim shunga yangiliklar qismini qo'shsa bo'ladimi yani texnologiya ai dasturlash sohasidagi 3ta yangiliklar kunlik kunlik kelib turadigan qilib yana qanday qo'shimcha narsa qo'shasa bo'ladi nima deb o'ylaysan
