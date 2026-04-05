@@ -1,138 +1,130 @@
-<!-- PROFIL BANNER -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=900&lines=Salom%2C+Men+ANVARMAN!;Fullstack+Developer+%7C+AI+%26+Software+Engineer;GitHub+Student+Developer+Pack+Member;Welcome+to+my+GitHub+Profile!+%F0%9F%91%8B" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=00C9A7&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Anvar+Ko'charov!;Full-Stack+Developer+%7C+Mobile+Developer+%7C+AI+Builder;Building+real-world+web%2C+mobile+and+intelligent+systems;Welcome+to+my+GitHub+profile+%F0%9F%91%8B" alt="Typing SVG" />
+</p>
+
+<h1 align="center">Anvar Ko‘charov</h1>
+<h3 align="center">Full-Stack Developer • Mobile Developer • AI-Focused Software Engineer</h3>
+
+<p align="center">
+  I build practical, scalable, and user-focused digital products with modern web, mobile, and AI technologies.
 </p>
 
 ---
 
-# 🌟 **Ko‘charov Anvar – Fullstack Developer & AI Learner**
+## 🚀 About Me
 
-Men **Kompyuter ilmlari va dasturlash texnologiyalari** yo‘nalishida o‘qiydigan,  
-**AI, Web Development, Backend Engineering**ga qiziqadigan dasturchi’man.
-
-Maqsadim — innovatsion dasturlar yaratish, AI bilan ishlaydigan kuchaytirilgan loyihalar ishlab chiqish va  
-developerlar hayotini osonlashtiradigan xizmatlar yaratish. Senior Fullstack dasturchi bo'lish
+- 🎓 Computer Science and Programming Technologies student at **Termiz State University**
+- 💻 Independent **Full-Stack Developer** and **Mobile App Developer**
+- 🤖 Interested in **AI-powered systems**, **backend engineering**, and **real-world automation**
+- 🧠 Currently working on projects related to **ANPR**, **transport control systems**, **cybersecurity education**, and **medical simulation platforms**
+- 🎯 Goal: become a high-level software engineer who builds impactful products for real users
 
 ---
 
-# 🚀 **Texnologiyalar & Asboblar**
+## 🛠 Tech Stack
 
-### 💻 **Frontend**
+### Frontend
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Vite](https://img.shields.io/badge/Vite-563D7C?style=for-the-badge&logo=vite&logoColor=yellow)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-0F172A?style=for-the-badge&logo=tailwind-css)
 ![Shadcn UI](https://img.shields.io/badge/Shadcn%20UI-000000?style=for-the-badge&logo=shadcnui)
-![Ant Design](https://img.shields.io/badge/Ant%20Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white)
 ![MUI](https://img.shields.io/badge/MUI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
+![Ant Design](https://img.shields.io/badge/Ant%20Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
----
-
-### ⚙️ **Backend**
-![NodeJS](https://img.shields.io/badge/Nodejs-3C873A?style=for-the-badge&logo=node.js&logoColor=white)
+### Backend & Databases
+![Node.js](https://img.shields.io/badge/Node.js-3C873A?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-
----
-
-### 🗄️ **Databases**
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=database)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-007C1E?style=for-the-badge&logo=mongodb&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-D82C20?style=for-the-badge&logo=redis&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-0C344B?style=for-the-badge&logo=prisma&logoColor=white)
 
----
+### Mobile & AI
+![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-27338E?style=for-the-badge&logo=opencv&logoColor=white)
 
-### 🔧 **Tools & Platforms**
-![GitHub](https://img.shields.io/badge/GitHub%20Pro-000000?style=for-the-badge&logo=github)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
-![Visual Studio Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code)
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
+### Tools & Platforms
+![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white)
 
 ---
 
-### 🖥️ **Operating Systems**
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+## 📌 Featured Projects
 
+### 1. ANPR-Based Transport Control System
+A smart transport monitoring and accounting platform for terminals, warehouses, and controlled areas.  
+Includes vehicle entry/exit tracking, session management, dashboard analytics, and camera integration.
+
+### 2. Cybersecurity Learning Platform
+An educational platform built for students to learn cybersecurity through video lessons, tests, and structured digital materials.
+
+### 3. AI-Powered Medical Simulation Concept
+A healthcare-focused digital project designed around intelligent simulation, diagnosis support ideas, and interactive medical workflows.
+
+### 4. Full-Stack Web & Dashboard Systems
+I build admin panels, authentication systems, and modern responsive web applications using React, TypeScript, Node.js, and Firebase.
+
+> More projects: [github.com/anvar4](https://github.com/anvar4)
 
 ---
 
-# 🧠 **Hozir o‘rganayotgan texnologiyalar**
-- AI Agentlar  
-- Copilot Pro bilan AI Coding  
-- REST & GraphQL API  
-- Fullstack tizimlar arxitekturasi  
-- Cloud: DigitalOcean, Vercel, Railway  
+## 🌱 Currently Learning & Improving
+
+- System design and scalable backend architecture
+- AI agents and intelligent product integration
+- Computer vision and real-time recognition systems
+- Advanced mobile app development
+- Clean architecture and production-ready software engineering
 
 ---
 
-# 💬 Kunlik Developer Iqtibosi
+## 🎯 Career Goals
+
+- Become a strong **Senior Full-Stack Engineer**
+- Grow into a professional **AI Software Engineer**
+- Build meaningful **SaaS**, **automation**, and **intelligent platforms**
+- Contribute to the growth of the Uzbek tech ecosystem
+
+---
+
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
-</p>
-
-
----
-
-# 📂 **Tanlangan loyihalar**
-
-### 🔥 **1. AI Chat Assistant**
-AI yordamida matn tahlili, suhbat va kod yozish imkoniyati.
-
-### 🔥 **2. Fullstack Dashboard App**
-React + Node.js + MongoDB bilan real biznes uchun ma'lumotlar paneli.
-
-### 🔥 **3. Authentication System**
-JWT + Refresh Token + Role-Based Access Control.
-
-➡️ **Ko‘proq loyihalar:**  
-https://github.com/anvar4?tab=repositories
-
----
-
-# 🎯 **Maqsadlarim**
-- Fullstack dasturlashda Senior darajasiga erishish
-- Professional AI Engineer bo‘lish  
-- Kuchli Web Services va SaaS loyihalar yaratish  
-- O‘zbek developerlar community’siga hissa qo‘shish  
-
----
-
-# 📬 **Aloqa**
-
-**Email:** anvarkucharov4@gmail.com  
-**GitHub:** https://github.com/anvar4  
-**Telegram:** https://t.me/AnvarKucharov  
-**Telefon:** +998 97 640 20 04 | +998 33 339 00 15  
-
----
-
-# 🥇 GitHub Achievements
-
-<p align="center">
-  <img src="https://github.com/anvar4.png?size=200" width="120" style="border-radius:50%;" />
+  <img src="https://github-readme-stats.vercel.app/api?username=anvar4&show_icons=true&theme=tokyonight&hide_border=true" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anvar4&layout=compact&theme=tokyonight&hide_border=true" height="170" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Achiever-%F0%9F%A5%87-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Open%20Source%20Contributor-%E2%9C%A8-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Developer-%F0%9F%92%BB-yellow?style=for-the-badge" />
+  <img src="https://streak-stats.demolab.com?user=anvar4&theme=tokyonight&hide_border=true" />
 </p>
 
+---
+
+## 🤝 Connect With Me
+
+- 📧 Email: **anvarkucharov4@gmail.com**
+- 💬 Telegram: **[@AnvarKucharov](https://t.me/AnvarKucharov)**
+- 🌐 GitHub: **[anvar4](https://github.com/anvar4)**
 
 ---
 
 <p align="center">
-  <b>⭐ Profilimga tashrif buyurganingiz uchun rahmat!</b><br>
-  <i>Agar profilingizga qaytsangiz — follow qoldiring 😉</i>
+  <b>Thanks for visiting my profile!</b><br/>
+  <i>Building, learning, and improving — one project at a time.</i>
 </p>
