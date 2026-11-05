@@ -34,7 +34,6 @@ MUTED = "#8D96A4"   # 6.5:1 on BG
 DIM = "#5D6675"     # decorative only
 ACCENT = "#FF6A1F"  # signal orange, 6.8:1 on BG
 INK = "#160A03"     # text on accent
-BLUE, GREEN, VIOLET, RED = "#6CB8FF", "#3DDC97", "#B69CFF", "#FF5A5A"
 
 FACES = {  # key: (family, weight, file)
     "P4": ("P", 400, "ibm-plex-sans-latin-400-normal.woff"),
@@ -50,17 +49,7 @@ REDUCED_MOTION = "@media (prefers-reduced-motion:reduce){*{animation:none!import
 
 # ----------------------------------------------------------------- content
 NAME = "Anvar Ko‘charov"  # U+2018: Plex draws U+02BB as wide as an "o"
-STATUS = "OPEN TO ROLES · TASHKENT, UZBEKISTAN"
-HEADLINE = ("Software engineer for web, mobile, bots and AI.",
-            "I ship the model, the backend and the app around it.")
-DISCIPLINES = (("FULL-STACK WEB", "ANDROID / KOTLIN", "TELEGRAM BOTS"),
-               ("AI AGENTS", "LLM APPS", "COMPUTER VISION", "ML · SPEECH"))
-PIPELINE = (  # the hero's event log: one plate read crossing every layer
-    ("+0.04s", "VISION", ACCENT, "plate 01A123BC read · conf 0.98"),
-    ("+0.11s", "API", BLUE, "parking session #4821 opened"),
-    ("+0.17s", "BOT", GREEN, "driver notified in Telegram"),
-    ("+0.29s", "AGENT", VIOLET, "invoice drafted, synced to app"),
-)
+ROLE = ("Software engineer", "web, mobile, bots and AI")
 
 CAPABILITIES = (
     ("layers", "Full-stack & integrations",
@@ -263,115 +252,58 @@ def fits(label, face, size, width, ls=0):
 
 # ------------------------------------------------------------------ pieces
 def hero():
-    W, H = 1280, 440
-    s = Svg(W, H, f"{NAME}. {HEADLINE[0]} {HEADLINE[1]} Illustration: a gate camera reads a "
-                  "license plate, then the API, a Telegram bot and an AI agent each act on it.")
-    fx, fy, fw, fh = 712, 48, 504, 208  # camera frame
+    W, H = 1280, 340
+    s = Svg(W, H, f"{NAME}. {ROLE[0]}: {ROLE[1]}.")
+    cx = W / 2
+    size, ls = 96, -2.4
+    fits(NAME, "P6", size, W - 160, ls)
+    nw = advance("P6", NAME, size, ls)
+    nx, ny = cx - nw / 2, 172
+    sep = " · "
+    w1, w2 = advance("P4", ROLE[0], 30), advance("P4", sep + ROLE[1], 30)
+    rx, ry = cx - (w1 + w2) / 2, 238
     s.defs += [
         f'<clipPath id="panel"><rect width="{W}" height="{H}" rx="24"/></clipPath>',
-        f'<clipPath id="frame"><rect x="{fx}" y="{fy}" width="{fw}" height="{fh}" rx="14"/></clipPath>',
         f'<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">'
         f'<path d="M32 0H0V32" fill="none" stroke="{GRID}"/></pattern>',
-        '<radialGradient id="fade" cx="78%" cy="45%" r="62%"><stop offset="0" stop-color="#fff"/>'
+        f'<pattern id="lit" width="32" height="32" patternUnits="userSpaceOnUse">'
+        f'<path d="M32 0H0V32" fill="none" stroke="{ACCENT}" stroke-opacity=".55"/></pattern>',
+        '<radialGradient id="fade" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#fff"/>'
         '<stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>',
         f'<mask id="gridmask"><rect width="{W}" height="{H}" fill="url(#fade)"/></mask>',
-        f'<radialGradient id="glow" cx="76%" cy="38%" r="42%"><stop offset="0" stop-color="{ACCENT}" '
-        f'stop-opacity=".10"/><stop offset="1" stop-color="{ACCENT}" stop-opacity="0"/></radialGradient>',
-        f'<linearGradient id="scan" x1="0" x2="1"><stop offset="0" stop-color="{ACCENT}" stop-opacity="0"/>'
-        f'<stop offset=".8" stop-color="{ACCENT}" stop-opacity=".18"/>'
-        f'<stop offset="1" stop-color="{ACCENT}" stop-opacity=".85"/></linearGradient>',
+        '<linearGradient id="band" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/>'
+        '<stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>',
+        f'<mask id="sweep"><g class="sweep"><rect x="-260" width="260" height="{H}" fill="url(#band)"/></g></mask>',
+        f'<radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="{ACCENT}" '
+        f'stop-opacity=".16"/><stop offset="1" stop-color="{ACCENT}" stop-opacity="0"/></radialGradient>',
     ]
-    cycle, rows = "9s", []
-    for i, start in enumerate((30, 40, 50, 60), 1):
-        rows.append(f".l{i}{{animation:l{i} {cycle} ease-out infinite}}"
-                    f"@keyframes l{i}{{0%,{start}%{{opacity:0;transform:translateY(6px)}}"
-                    f"{start + 4}%,93%{{opacity:1;transform:translateY(0)}}98%,100%{{opacity:0}}}}")
+    ease = "cubic-bezier(.65,0,.35,1)"
     s.css += [
-        ".ring{opacity:0;transform-box:fill-box;transform-origin:center;animation:ring 2.4s ease-out infinite}"
-        "@keyframes ring{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(2.8)}}",
-        ".live{animation:blink 1.6s steps(1) infinite}@keyframes blink{50%{opacity:.25}}",
-        f".scan{{opacity:0;animation:scan {cycle} linear infinite}}"
-        "@keyframes scan{0%{opacity:0;transform:translateX(0)}3%,19%{opacity:1}"
-        f"22%,100%{{opacity:0;transform:translateX({fw + 80}px)}}}}",
-        f".box{{transform-box:fill-box;transform-origin:center;animation:box {cycle} cubic-bezier(.2,.7,.2,1) infinite}}"
-        "@keyframes box{0%,17%{opacity:0;transform:scale(1.25)}23%,93%{opacity:1;transform:scale(1)}"
-        "98%,100%{opacity:0;transform:scale(1)}}",
-        f".tag{{animation:tag {cycle} infinite}}@keyframes tag{{0%,23%{{opacity:0}}27%,93%{{opacity:1}}98%,100%{{opacity:0}}}}",
-        *rows,
+        f".sweep{{animation:sweep 7s {ease} infinite}}"
+        f"@keyframes sweep{{0%{{transform:translateX(0)}}70%,100%{{transform:translateX({W + 260}px)}}}}",
+        ".glow{animation:drift 12s ease-in-out infinite alternate}"
+        "@keyframes drift{from{transform:translateX(-180px)}to{transform:translateX(180px)}}",
+        f".name{{animation:wipe 1.1s {ease} .2s both}}"
+        "@keyframes wipe{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}",
+        f".bar{{opacity:0;animation:bar 1.1s {ease} .2s both}}"
+        f"@keyframes bar{{0%,85%{{opacity:1}}0%{{transform:translateX(0)}}100%{{opacity:0;transform:translateX({nw:.1f}px)}}}}",
+        ".role{animation:rise .8s cubic-bezier(.2,.7,.2,1) 1.1s both}"
+        "@keyframes rise{from{opacity:0;transform:translateY(10px)}}",
+        ".caret{animation:blink 1.1s steps(1) infinite}@keyframes blink{50%{opacity:0}}",
     ]
 
     s.add(f'<g clip-path="url(#panel)"><rect width="{W}" height="{H}" fill="{BG}"/>'
-          f'<rect width="{W}" height="{H}" fill="url(#grid)" mask="url(#gridmask)"/>'
-          f'<rect width="{W}" height="{H}" fill="url(#glow)"/></g>',
+          f'<ellipse class="glow" cx="{cx}" cy="{H / 2}" rx="420" ry="190" fill="url(#glow)"/>'
+          f'<g mask="url(#gridmask)"><rect width="{W}" height="{H}" fill="url(#grid)"/>'
+          f'<rect width="{W}" height="{H}" fill="url(#lit)" mask="url(#sweep)"/></g></g>',
           f'<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="23.5" fill="none" stroke="{LINE}"/>')
-
-    # left column
-    x0, col = 64, 620
-    s.add(f'<circle class="ring" cx="{x0 + 6}" cy="84" r="5" fill="none" stroke="{GREEN}" stroke-width="1.5"/>',
-          f'<circle cx="{x0 + 6}" cy="84" r="4.5" fill="{GREEN}"/>',
-          s.text(x0 + 24, 89, STATUS, "M4", 15, MUTED, ls=1.2))
-    fits(NAME, "P6", 72, col, -1.4)
-    s.add(s.text(x0 - 3, 172, NAME, "P6", 72, TEXT, ls=-1.4))
-    for i, (line, color) in enumerate(zip(HEADLINE, (SOFT, MUTED))):
-        fits(line, "P4", 25, col)
-        s.add(s.text(x0, 222 + i * 36, line, "P4", 25, color))
-    for i, labels in enumerate(DISCIPLINES):
-        s.add(chip_row(s, x0, 298 + i * 44, labels, col, gap=10, face="M4", size=14, h=34,
-                       color=SOFT, stroke=EDGE, ls=1, dot=ACCENT))
-
-    # camera frame: a truck front, cropped by the lens
-    s.add(f'<rect x="{fx + .5}" y="{fy + .5}" width="{fw - 1}" height="{fh - 1}" rx="13.5" '
-          f'fill="{RAISED}" stroke="{LINE}"/>')
-    body = "#2A3340"
-    px, py, pw, ph = 860, 168, 208, 46  # plate
-    s.add(f'<g clip-path="url(#frame)">'
-          f'<rect x="760" y="104" width="64" height="20" rx="10" fill="#10141A" stroke="{body}"/>'
-          f'<rect x="1104" y="104" width="64" height="20" rx="10" fill="#10141A" stroke="{body}"/>'
-          f'<rect x="844" y="88" width="240" height="190" rx="16" fill="#0D1015" stroke="{body}"/>'
-          f'<path d="M866 108h196M866 124h196M866 140h196" stroke="#171C24" stroke-width="7" stroke-linecap="round"/>'
-          f'<path d="M732 246h464" stroke="{body}"/>'
-          f'<rect x="{px}" y="{py}" width="{pw}" height="{ph}" rx="5" fill="#F2F3EF"/>'
-          f'<rect x="{px + 3}" y="{py + 3}" width="{pw - 6}" height="{ph - 6}" rx="3" fill="none" '
-          f'stroke="#1B1F25" stroke-width="1.2"/>'
-          f'<path d="M{px + 46} {py + 8}V{py + ph - 8}" stroke="#1B1F25" stroke-width="1.2"/>'
-          + s.text(px + 24, py + 32, "01", "M6", 24, "#101318", anchor="middle")
-          + s.text(px + 56, py + 32, "A 123 BC", "M6", 24, "#101318")
-          + f'<rect x="{px + pw - 25}" y="{py + 9}" width="15" height="11" fill="#fff" stroke="#C8CCD2" stroke-width=".5"/>'
-          f'<rect x="{px + pw - 25}" y="{py + 9}" width="15" height="3.4" fill="#0099B5"/>'
-          f'<rect x="{px + pw - 25}" y="{py + 16.6}" width="15" height="3.4" fill="#1EB53A"/>'
-          f'<path d="M{px + pw - 25} {py + 12.8}h15M{px + pw - 25} {py + 15.8}h15" stroke="#CE1126" stroke-width=".7"/>'
-          + s.text(px + pw - 17.5, py + 35, "UZ", "M6", 9, "#101318", anchor="middle")
-          + f'<g class="scan"><rect x="{fx - 80}" y="{fy}" width="80" height="{fh}" fill="url(#scan)"/></g>'
+    s.add(s.text(nx, ny, NAME, "P6", size, TEXT, ls=ls, cls="name"),
+          f'<rect class="bar" x="{nx - 6:.1f}" y="{ny - 80}" width="4" height="98" rx="2" fill="{ACCENT}"/>')
+    s.add('<g class="role">'
+          + s.text(rx, ry, ROLE[0], "P4", 30, TEXT)
+          + s.text(rx + w1 + advance("P4", " ", 30), ry, sep.strip() + " " + ROLE[1], "P4", 30, MUTED)
+          + f'<rect class="caret" x="{rx + w1 + w2 + 8:.1f}" y="{ry - 26}" width="3" height="32" fill="{ACCENT}"/>'
           '</g>')
-    s.add(s.text(fx + 18, fy + 26, "CAM 03 · GATE B", "M4", 12, DIM, ls=1.2))
-    live_w = advance("M6", "LIVE", 12, 1.2)
-    s.add(f'<circle class="live" cx="{fx + fw - 18 - live_w - 10:g}" cy="{fy + 22}" r="4" fill="{RED}"/>',
-          s.text(fx + fw - 18, fy + 26, "LIVE", "M6", 12, SOFT, anchor="end", ls=1.2))
-
-    # detection
-    bx0, by0, bx1, by1, L = px - 12, py - 12, px + pw + 12, py + ph + 12, 16
-    corners = (f"M{bx0} {by0 + L}V{by0}H{bx0 + L}M{bx1 - L} {by0}H{bx1}V{by0 + L}"
-               f"M{bx1} {by1 - L}V{by1}H{bx1 - L}M{bx0 + L} {by1}H{bx0}V{by1 - L}")
-    s.add(f'<g class="box"><rect x="{bx0}" y="{by0}" width="{bx1 - bx0}" height="{by1 - by0}" '
-          f'fill="{ACCENT}" fill-opacity=".06"/><path d="{corners}" fill="none" stroke="{ACCENT}" '
-          f'stroke-width="2.5"/></g>')
-    label = "PLATE · 0.98"
-    lw = advance("M6", label, 12, .8) + 16
-    s.add(f'<g class="tag"><rect x="{bx0}" y="{by0 - 26}" width="{lw:g}" height="22" rx="4" fill="{ACCENT}"/>'
-          + s.text(bx0 + 8, by0 - 10.5, label, "M6", 12, INK, ls=.8) + '</g>')
-
-    # event log
-    ly = fy + fh + 16
-    s.add(f'<rect x="{fx + .5}" y="{ly + .5}" width="{fw - 1}" height="143" rx="13.5" fill="{RAISED}" stroke="{LINE}"/>')
-    for i, (t, tag, color, msg) in enumerate(PIPELINE, 1):
-        cy = ly + 27 + (i - 1) * 30
-        fits(msg, "M4", 15, fx + fw - 18 - (fx + 158))
-        s.add(f'<g class="l{i}">'
-              + s.text(fx + 18, cy + 4.5, t, "M4", 12, DIM)
-              + f'<rect x="{fx + 74}" y="{cy - 11}" width="70" height="22" rx="4" fill="{color}" fill-opacity=".14"/>'
-              + s.text(fx + 109, cy + 4, tag, "M6", 11, color, anchor="middle", ls=.8)
-              + s.text(fx + 158, cy + 5.5, msg, "M4", 15, SOFT)
-              + '</g>')
     s.save("hero.svg")
 
 
