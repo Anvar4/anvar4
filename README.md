@@ -1,125 +1,87 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1200&color=00C9A7&center=true&vCenter=true&width=900&lines=Hi%2C+I'm+Anvar+Ko'charov!;Full-Stack+Developer+%7C+Mobile+Developer+%7C+AI+Builder;Building+real-world+web%2C+mobile+and+intelligent+systems;Welcome+to+my+GitHub+profile+%F0%9F%91%8B" alt="Typing SVG" />
-</p>
-
-<h1 align="center">Anvar Ko'charov</h1>
-<h3 align="center">Full-Stack Developer • Mobile Developer • AI-Focused Software Engineer</h3>
-
-<p align="center">
-  I build practical, scalable, and user-focused digital products with modern web, mobile, and AI technologies.
+  <img src="assets/hero.svg" width="100%" alt="Anvar Ko'charov. AI Engineer, Full-Stack Developer and UI/UX Designer." />
 </p>
 
 <p align="center">
-  <a href="https://t.me/AnvarKucharov"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>
-  <a href="mailto:anvarkucharov4@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/Anvar4"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Anvar4&style=for-the-badge&color=00C9A7" alt="Profile Views" />
+  <a href="mailto:anvarkucharov4@gmail.com"><img src="assets/btn-email.svg" height="42" alt="Email me" /></a>&nbsp;
+  <a href="https://t.me/AnvarKucharov"><img src="assets/btn-telegram.svg" height="42" alt="Telegram" /></a>&nbsp;
+  <a href="https://archai.uz"><img src="assets/btn-archai.svg" height="42" alt="See ArchAI Studio" /></a>
 </p>
 
----
+I build AI products end to end: the model integration, the backend and the interface. **Open to full-stack and AI engineering roles in Tashkent.**
 
-## 🚀 About Me
+- **AI engineering:** LLM assistants with rate limits and fallbacks, adaptive learning logic, plate recognition and in-browser vision models.
+- **Full-stack:** Next.js and React with Node.js or FastAPI, plus auth, payments, CI, Docker deploys and automated tests.
+- **UI/UX:** token-based design systems, dark and light themes, and responsive QA at 375 and 1440 px.
 
-- 🎓 Computer Science and Programming Technologies student at **Termiz State University**
-- 💻 Independent **Full-Stack Developer** and **Mobile App Developer**
-- 🤖 Interested in **AI-powered systems**, **backend engineering**, and **real-world automation**
-- 🧠 Currently working on projects related to **ANPR**, **transport control systems**, **cybersecurity education**, and **medical simulation platforms**
-- 🎯 Goal: become a high-level software engineer who builds impactful products for real users
+## GitHub activity
 
----
+<img src="assets/activity.svg" width="100%" alt="GitHub activity: contributions, streaks and top languages, updated daily" />
 
-## 🛠 Tech Stack
+## Projects
 
-### Frontend
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b><a href="https://archai.uz">ArchAI Studio</a></b><br />
+      AI assistant for architects: code-checked plans, 3D, AI renders and concept design packages.<br /><br />
+      <sub>Next.js, React, three.js, MongoDB, Claude API</sub>
+    </td>
+    <td width="50%" valign="top">
+      <b>ANPR Terminal</b><br />
+      Plate recognition, gate control, parking sessions and payments for freight terminals.<br /><br />
+      <sub>FastAPI, OpenCV, PostgreSQL, React</sub>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <b><a href="https://github.com/Anvar4/Med_AI_Simulator">Med AI Simulator</a></b><br />
+      Clinical case simulation with an AI assistant, voice input and adaptive difficulty.<br /><br />
+      <sub>Next.js, Express, MongoDB, OpenAI API</sub>
+    </td>
+    <td valign="top">
+      <b><a href="https://github.com/Anvar4/CyberSafe">CyberSafe</a></b><br />
+      Multi-language cybersecurity learning with video lessons, tests and digital materials.<br /><br />
+      <sub>React, TypeScript, Firebase</sub>
+    </td>
+  </tr>
+</table>
 
-### Backend & Databases
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+Also built: [IT Arena](https://github.com/Anvar4/GAMIFIKATSIYA), [AI Vision Detector](https://github.com/Anvar4/al_detector_face_app), [YT Downloader Pro](https://github.com/Anvar4/yt_video_downloader_plugin), [AI Chatbot](https://github.com/Anvar4/chatbot-backend).
 
-### Mobile & AI
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
+## Tech stack
 
-### Tools & Platforms
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
+**AI and vision**<br />
+![Claude](https://img.shields.io/badge/Claude_API-0F2138?style=flat-square&logo=anthropic&logoColor=00C9A7)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-0F2138?style=flat-square&logo=openai&logoColor=00C9A7)
+![Gemini](https://img.shields.io/badge/Gemini_API-0F2138?style=flat-square&logo=googlegemini&logoColor=00C9A7)
+![Python](https://img.shields.io/badge/Python-0F2138?style=flat-square&logo=python&logoColor=00C9A7)
+![OpenCV](https://img.shields.io/badge/OpenCV-0F2138?style=flat-square&logo=opencv&logoColor=00C9A7)
+![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-0F2138?style=flat-square&logo=tensorflow&logoColor=00C9A7)
 
----
+**Interface**<br />
+![React](https://img.shields.io/badge/React-0F2138?style=flat-square&logo=react&logoColor=00C9A7)
+![Next.js](https://img.shields.io/badge/Next.js-0F2138?style=flat-square&logo=nextdotjs&logoColor=00C9A7)
+![TypeScript](https://img.shields.io/badge/TypeScript-0F2138?style=flat-square&logo=typescript&logoColor=00C9A7)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0F2138?style=flat-square&logo=tailwindcss&logoColor=00C9A7)
+![three.js](https://img.shields.io/badge/three.js-0F2138?style=flat-square&logo=threedotjs&logoColor=00C9A7)
 
-## 📊 GitHub Stats
+**Backend and data**<br />
+![Node.js](https://img.shields.io/badge/Node.js-0F2138?style=flat-square&logo=nodedotjs&logoColor=00C9A7)
+![NestJS](https://img.shields.io/badge/NestJS-0F2138?style=flat-square&logo=nestjs&logoColor=00C9A7)
+![Express](https://img.shields.io/badge/Express-0F2138?style=flat-square&logo=express&logoColor=00C9A7)
+![FastAPI](https://img.shields.io/badge/FastAPI-0F2138?style=flat-square&logo=fastapi&logoColor=00C9A7)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0F2138?style=flat-square&logo=postgresql&logoColor=00C9A7)
+![MongoDB](https://img.shields.io/badge/MongoDB-0F2138?style=flat-square&logo=mongodb&logoColor=00C9A7)
+![Redis](https://img.shields.io/badge/Redis-0F2138?style=flat-square&logo=redis&logoColor=00C9A7)
+![Firebase](https://img.shields.io/badge/Firebase-0F2138?style=flat-square&logo=firebase&logoColor=00C9A7)
+![Supabase](https://img.shields.io/badge/Supabase-0F2138?style=flat-square&logo=supabase&logoColor=00C9A7)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Anvar4&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Anvar4&theme=tokyonight&hide_border=true" width="48%" />
-</p>
+**Mobile and delivery**<br />
+![Android](https://img.shields.io/badge/Android-0F2138?style=flat-square&logo=android&logoColor=00C9A7)
+![Kotlin](https://img.shields.io/badge/Kotlin-0F2138?style=flat-square&logo=kotlin&logoColor=00C9A7)
+![Docker](https://img.shields.io/badge/Docker-0F2138?style=flat-square&logo=docker&logoColor=00C9A7)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0F2138?style=flat-square&logo=githubactions&logoColor=00C9A7)
+![Linux](https://img.shields.io/badge/Linux-0F2138?style=flat-square&logo=linux&logoColor=00C9A7)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anvar4&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="48%" />
-</p>
-
----
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Anvar4&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" />
-</p>
-
----
-
-## 📌 Featured Projects
-
-| Project | Description | Tech |
-|---------|-------------|------|
-| 🚗 ANPR Transport Control | Smart transport monitoring for terminals, warehouses & controlled areas | React, Node.js, OpenCV |
-| 🔐 Cybersecurity Learning Platform | Educational platform with video lessons, tests, and digital materials | React, NestJS, PostgreSQL |
-| 🏥 AI Medical Simulation | Healthcare platform with intelligent simulation & diagnosis support | Python, AI, React |
-| 🖥️ Full-Stack Dashboard Systems | Admin panels, auth systems, modern web apps | React, TypeScript, Firebase |
-
----
-
-## 🌱 Currently Learning
-
-- System design and scalable backend architecture
-- AI agents and intelligent product integration
-- Computer vision and real-time recognition systems
-- Advanced mobile app development
-- Clean architecture and production-ready software engineering
-
----
-
-## 🎯 Career Goals
-
-- Become a strong **Senior Full-Stack Engineer**
-- Grow into a professional **AI Software Engineer**
-- Build meaningful **SaaS, automation, and intelligent platforms**
-- Contribute to the growth of the **Uzbek tech ecosystem**
-
----
-
-## 🤝 Connect With Me
-
-<p align="center">
-  <a href="mailto:anvarkucharov4@gmail.com">📧 anvarkucharov4@gmail.com</a> •
-  <a href="https://t.me/AnvarKucharov">💬 @AnvarKucharov</a> •
-  <a href="https://github.com/anvar4">🌐 github.com/anvar4</a>
-</p>
-
-<p align="center">
-  <i>Thanks for visiting my profile!<br>Building, learning, and improving — one project at a time. 🚀</i>
-</p>
+<sub>Computer Science and Programming Technologies student at Termiz State University. Uzbek, Russian (B2), English (B1).</sub>
