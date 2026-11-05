@@ -10,12 +10,15 @@ from collections import Counter
 from datetime import date, datetime
 
 LOGIN = os.environ.get("STATS_LOGIN", "Anvar4")
-OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets", "activity.svg")
+HERE = os.path.dirname(os.path.abspath(__file__))
+OUT = os.path.join(HERE, "..", "assets", "activity.svg")
+# ASCII subsets of IBM Plex Sans and JetBrains Mono, written by build_assets.py
+FONT_CSS = os.path.join(HERE, "fonts", "activity-fonts.css")
 
-GROUND, CELL0, LINE = "#0F2138", "#1A3150", "#2B4566"
-TEAL, TEXT, MUTED = "#00C9A7", "#F5F7F8", "#9FB3C8"
-LEVELS = ["#1A3150", "#0B5E5C", "#00897B", "#00AB94", "#00E0BA"]
-FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+# same tokens as build_assets.py
+GROUND, EDGE = "#0B0D11", "#2C3442"
+ACCENT, TEXT, SOFT, MUTED = "#FF6A1F", "#EDEFF2", "#C3C9D2", "#8D96A4"
+LEVELS = ["#161B22", "#4A220C", "#8A3812", "#D45218", "#FF7A35"]
 
 QUERY = """
 query($login: String!) {
@@ -83,9 +86,18 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def t(x, y, s, size, fill=TEXT, weight=400, anchor="start"):
-    return (f'<text x="{x}" y="{y}" font-size="{size}" fill="{fill}" font-weight="{weight}" '
-            f'text-anchor="{anchor}">{esc(str(s))}</text>')
+def t(x, y, s, size, fill=TEXT, face="P4", anchor="start", ls=0):
+    spacing = f' letter-spacing="{ls}"' if ls else ""
+    return (f'<text x="{x}" y="{y}" class="{face}" font-size="{size}" fill="{fill}" '
+            f'text-anchor="{anchor}"{spacing}>{esc(str(s))}</text>')
+
+
+def font_css():
+    try:
+        with open(FONT_CSS, encoding="utf-8") as fh:
+            return fh.read()
+    except OSError:  # system fonts still render; the panel just looks plainer
+        return ""
 
 
 def render(user, today=None):
@@ -96,17 +108,17 @@ def render(user, today=None):
     days = [d for w in weeks for d in w["contributionDays"]]
     current, longest = streaks(days, today)
     W, M = 1280, 48
-    stats = [(f"{cal['totalContributions']:,}", "Contributions, 1 year"),
-             (f"{sum(1 for d in days if d['contributionCount'])}", "Active days"),
-             (f"{current}", "Current streak"),
-             (f"{longest}", "Longest streak"),
-             (f"{user['repositories']['totalCount']}", "Repositories")]
+    stats = [(f"{cal['totalContributions']:,}", "CONTRIBUTIONS · 12 MO"),
+             (f"{sum(1 for d in days if d['contributionCount'])}", "ACTIVE DAYS"),
+             (f"{current}", "CURRENT STREAK"),
+             (f"{longest}", "LONGEST STREAK"),
+             (f"{user['repositories']['totalCount']}", "REPOSITORIES")]
     b = []
     colw = (W - 2 * M) / len(stats)
     for i, (v, label) in enumerate(stats):
         x = round(M + i * colw)
-        b.append(t(x, 92, v, 52, TEXT, 700))
-        b.append(t(x, 124, label, 17, MUTED))
+        b.append(t(x, 96, v, 54, TEXT, "P6", ls=-1))
+        b.append(t(x, 126, label, 13, ACCENT if i == 0 else MUTED, "M4", ls=1.2))
 
     # contribution calendar, quantised against the busiest day
     peak = max((d["contributionCount"] for d in days), default=0) or 1
@@ -124,7 +136,7 @@ def render(user, today=None):
                      f'width="{size:.1f}" height="{size:.1f}" rx="3" fill="{LEVELS[lvl]}"/>')
         m = datetime.strptime(w["contributionDays"][0]["date"], "%Y-%m-%d")
         if m.month != last and i < n - 2:
-            months.append(t(round(M + i * pitch), top + 10, m.strftime("%b"), 15, MUTED))
+            months.append(t(round(M + i * pitch), top + 10, m.strftime("%b").upper(), 12, MUTED, "M4", ls=1))
             last = m.month
     b.extend(months)
     y = top + 22 + 7 * pitch + 22
@@ -142,15 +154,15 @@ def render(user, today=None):
         for i, (name, p, color) in enumerate(langs):
             lx = round(M + i * lw)
             b.append(f'<circle cx="{lx + 6}" cy="{y + 40}" r="6" fill="{color}"/>')
-            b.append(t(lx + 20, y + 46, f"{name} {p * 100:.0f}%", 17, TEXT))
+            b.append(t(lx + 20, y + 46, f"{name} {p * 100:.0f}%", 16, SOFT))
         y += 56
     H = round(y + 26)
     alt = (f"GitHub activity: {cal['totalContributions']} contributions in the last 12 months, "
            f"current streak {current} days, longest streak {longest} days.")
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" '
-            f'role="img" aria-label="{esc(alt)}"><title>{esc(alt)}</title>'
-            f'<rect width="{W}" height="{H}" rx="20" fill="{GROUND}"/>'
-            f'<g font-family="{FONT}">{"".join(b)}</g></svg>')
+            f'role="img" aria-label="{esc(alt)}"><title>{esc(alt)}</title><style>{font_css()}</style>'
+            f'<rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="17.5" fill="{GROUND}" stroke="{EDGE}"/>'
+            f'{"".join(b)}</svg>')
 
 
 if __name__ == "__main__":
