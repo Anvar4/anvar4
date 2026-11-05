@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" width="100%" alt="Anvar Koʻcharov. Software engineer for web, mobile, bots and AI. Open to roles in Tashkent, Uzbekistan." />
+ 
 </p>
 
 <p align="center">
